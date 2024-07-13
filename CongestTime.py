@@ -3,6 +3,10 @@ import cv2
 from math import sqrt, pow
 import time
 
+#########################################################################################
+# Link video : https://drive.google.com/drive/folders/1pDslmmSyhkXa4-HfEAzwkA_3PPRIDAlM #
+#########################################################################################
+
 # Tính khoảng cách giữa hai tọa độ cũ và mới bằng Euclidean
 def dist(x1, y1, x2, y2):
     return sqrt(pow(x1-x2, 2) + pow(y1-y2, 2))
